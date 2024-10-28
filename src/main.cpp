@@ -8,7 +8,7 @@
 #include <DHT_U.h>
 
 #define ledPin 5
-#define alarm 9
+#define alarm 4
 
 #define DHTPIN 2
 #define DHTTYPE DHT11
