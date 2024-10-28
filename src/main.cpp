@@ -138,6 +138,8 @@ void handleNewMessages(int numNewMessages)
 void setup()
 {
   Serial.begin(115200);
+  pinMode(ledPin, OUTPUT);
+  pinMode(alarm, OUTPUT);
   Serial.print("Connecting to Wifi SSID ");
   Serial.print(SSID);
   WiFi.begin(SSID, PASSWORD);
